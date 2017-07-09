@@ -1,0 +1,22 @@
+div{
+	width: 400px;
+	height:200px; 
+	background-color: #dcd4b3;
+
+}
+h1{
+	color:#672c07;
+}
+h2{
+	color:#000000;
+}
+h3{
+	color:#a5752a;
+}
+a{color: #000000;
+	
+}
+span{
+	text-decoration: underline;
+	color:#008000;
+}

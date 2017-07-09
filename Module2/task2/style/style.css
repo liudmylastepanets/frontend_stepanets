@@ -1,0 +1,22 @@
+h2{
+	background-color: red;
+	color:white;
+	width:100px;
+}
+.text{
+	background-color: #4169E1;
+	width: 250px;
+	height: 50px;
+
+}
+.decoration{
+	background-color: yellow;
+	width: 250px;
+	height: 50px;
+}
+
+hr{
+	margin-right: 300px;
+	margin-left: 0px;
+	color: grey;
+}
