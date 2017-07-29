@@ -1,0 +1,20 @@
+table{
+	width: 600px;
+	height: 600px;
+	border-collapse: collapse;
+	border: solid #ffffff 2px;
+
+}
+.block{
+	width: 200px;
+	height: 200px;
+	background-color: #850000;
+}
+.white_block{
+width: 200px;
+height: 200px;
+background-color: #ffffff;	
+}
+img{
+	margin-left: 60px;
+}
