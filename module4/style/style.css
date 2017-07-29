@@ -12,16 +12,24 @@
 
 }
 font-family: 'Roboto', sans-serif;
-.phone{
-	float: center;
-	
-	
+
+	}
+		
 }
 h1{margin-top: 15px;
-	float: center;
+	
+
+  
+
+
 
 	
 }
+img{
+	display: block;
+	margin: auto;
+		
+	}
 .loan{
 	background-color: #8bc144;
 	height: 30px;
@@ -30,6 +38,7 @@ h1{margin-top: 15px;
 	font-size:22px;
 	text-align: center;
 	margin-bottom: 5px;
+
 	
 }
 
@@ -37,6 +46,7 @@ h1{margin-top: 15px;
 .price{
 	font-size: 31px;
 	margin-left: 120px;
+	margin-bottom: 15px;
 
 
 	
