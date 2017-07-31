@@ -5,16 +5,19 @@ table{
 	border: solid #ffffff 2px;
 
 }
-.block{
-	width: 200px;
-	height: 200px;
-	background-color: #850000;
-}
-.white_block{
+
+tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd){
 width: 200px;
 height: 200px;
-background-color: #ffffff;	
+background-color: #850000
+
 }
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd){
+width: 200px;
+height: 200px;
+background-color:#ffffff;
+}
+
 img{
 	display: block;
 	margin: auto;
