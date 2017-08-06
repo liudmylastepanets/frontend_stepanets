@@ -1,0 +1,33 @@
+.block{
+	height: 450px;
+	width: 560px;
+	background-color:#80cdc6;
+	border: 1px solid transparent;
+	
+}
+.world{
+	position: absolute;
+	height: 350px;
+	width: 560px;
+	top:130px;
+	}
+.water_world{
+	position: absolute;
+	height: 54px;
+	width: 560px;
+	top:415px;
+	z-index:1;
+}
+.ship{
+	position: absolute;
+	height: 115px;
+	width: 115px;
+	top:310px;
+	left: 25px;
+}
+.clouds{
+	position: absolute;
+	height: 120px;
+	width: 340px;
+	left:230px;
+}
