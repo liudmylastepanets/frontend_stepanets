@@ -3,45 +3,42 @@
 	width: 750px;
 	height: 1680px;
 	background: #d1d1d1;
+	padding-left: 60px;
+	padding-top: 55px;
 }
-.header{
-	width:635px;
+.banner{
+	width:640px;
 	height: 148px;
-	margin-top: 55px;
-	margin-left: 60px;
 	position: relative;
 	top:5px;
 	left: 2px;
 }
 .wrap{
-	width: 635px;
+	width: 640px;
 	height: 1372px;
 	background: #ffffff;
-	margin-left: 60px;
 	padding-right: 50px;
 	padding-left: 50px;
 	padding-top: 40px;
 	
 }
-h1{
+
+h3{
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: normal;
 }
-.text{
-	margin-bottom: 40px;
-}
 .belly{
-	width: 250px;
-	height: 290px;
-	float: right;
-	margin-bottom: 20px;
-}
-.smile{
-	width:250px;
+	width: 268.5px;
 	height: 290px;
 	float: left;
-	margin-bottom: 20px;
+	margin-bottom: 60px;
+}
+.smile{
+	width:268.5px;
+	height: 290px;
+	float: left;
+	margin-bottom: 60px;
 	
 }
 .upper_block{
@@ -49,18 +46,19 @@ h1{
 	height: 200px;
 }
 .heart,.chest,.back{
-	width: 160px;
-	height: 280px;
+	width: 179px;
 	float: left;
-	margin: 7px;
+	
 }
 .lower_block{
-	margin-top: 50px;
 	width:95%;
 	height: 200px;
 }
+.clear{
+	clear:both;
+}
 button{
-    width:90%;
+    width:95%;
 	height: 40px;
 	background-color: #cf5b4e;
 	text-align: center;
@@ -70,16 +68,20 @@ button{
 	border: 0;
 	outline: 0;
 	margin-top: 20px;
+	margin: auto;
 	
 }
 .last{
 	margin-top: 25px;
 	width: 540px;
-	height: 300px;
-	position: absolute;
-	bottom:-750px;
-	
+	position: relative;
+	bottom:-50px;
+	clear: both;
 }
+.last:last-child{
+	margin-top: 100px;
+}
+
 
 
 
