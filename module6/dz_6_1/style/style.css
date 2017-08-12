@@ -1,0 +1,70 @@
+
+.first{
+	background: green;
+}
+.second{
+	background: purple;
+}
+p.first:active{
+	background: red;
+}
+p.second:active{
+	background: gold;
+}
+.first:hover{
+	background: yellow;
+}
+.second:hover{
+	background: brown;
+}
+input:focus{
+	border: 1px solid green;
+
+
+
+}
+div p:nth-child(even){
+	color: grey;
+}
+div p:first-letter{
+	color: red;
+	font-weight: 2em;
+	font-family: Georgia;
+}
+div p:after{
+	content:'\002a';
+
+}
+.symbol p:before{
+	content:'\002602';
+	
+}
+.rectangle{
+	border:1px solid black;
+	background: black;
+	width: 150px;
+	height: 75px;
+	position: absolute;
+	top:600px;
+	left:100px;
+	display: inline-block;
+}
+.rectangle:before{
+	content:'';
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid black;
+	border-bottom: 25px solid transparent;
+	position: absolute;
+	right: 150px;
+	top:15px;
+
+}
+
+
+
+
+
+
+
