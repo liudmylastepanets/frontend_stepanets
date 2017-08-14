@@ -51,6 +51,7 @@ th:first-child{
 }
 tfoot td{
 	border-bottom: none;
+
 	
 }
 
@@ -60,6 +61,7 @@ p{
 	float: right;
 	border-right: 3px solid grey;
 	border-height:2px;
+	padding-right: 10px;
 }
 
 span{
@@ -76,7 +78,7 @@ a{
 
 }
 div{
-	width: 30px;
+	width: 40px;
 	border-radius: 50%;
 	border: lightgrey solid 3px;
 	background: black;

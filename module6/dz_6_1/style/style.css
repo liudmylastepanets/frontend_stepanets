@@ -18,7 +18,8 @@ p.second:active{
 	background: brown;
 }
 input:focus{
-	border: 1px solid green;
+	border: 2px solid green;
+	outline: 0;
 
 
 
