@@ -1,0 +1,16 @@
+.symbol{
+	position: relative;
+}	
+	
+p{
+	margin-left: 25px;	
+
+}
+.symbol p::before{
+	content:'\002602';
+	position: absolute;
+	left:5px;
+}
+.symbol p:first-letter{
+	color: red;
+}
